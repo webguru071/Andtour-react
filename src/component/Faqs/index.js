@@ -19,12 +19,12 @@ const AllFaqs = () => {
                 <div className="faqs_three_area_wrapper">
                   {/* <!-- Item One --> */}
                   {FaqsData.map((data, index) => (
-                    <div className="faqs_item_wrapper">
+                    <div className="faqs_item_wrapper" key={index}>
                       <h3>{data.area_heading}</h3>
                       <div className="faqs_main_item">
                         <div className="accordion" id={"accordionExample" + index}>
                           {data.data.map((data, index1) => (
-                            <div className="accordion-item">
+                            <div className="accordion-item" key={index1}>
                               <h2
                                 className="accordion-header"
                                 id={"heading" + index1}

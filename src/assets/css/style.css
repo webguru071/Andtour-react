@@ -7348,7 +7348,7 @@ textarea {
     margin: 10px 7px;
     background: #D6D6D6;
     display: block;
-    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
     transition: opacity .2s ease;
     border-radius: 10px;
 }
@@ -10302,9 +10302,9 @@ width: 30px;
     position: relative;
  }
 
- .banner_thirteen_text{
-    /* padding: 70px 0px 40px 0px; */
- }
+ /* .banner_thirteen_text{
+    padding: 70px 0px 40px 0px;
+ } */
 
  .banner_thirteen_text h3{
     color: var(--white-color);
@@ -11369,9 +11369,6 @@ font-weight: 400;
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
-}
-.offcanvas{
-
 }
 .offcanvas_off {
     width: 40px;
