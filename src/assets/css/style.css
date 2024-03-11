@@ -7019,7 +7019,7 @@ textarea {
 .about_six_about_author {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start; 
     gap: 100px;
     padding-top: 26px;
 }
@@ -8913,7 +8913,7 @@ textarea {
 .about_ten_about_author {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start; 
     gap: 100px;
     padding-top: 40px;
     flex-wrap: wrap;
@@ -9415,7 +9415,7 @@ padding-bottom: 6px;
 .about_eleven_author {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start; 
     gap: 100px;
     padding-top: 30px;
     flex-wrap: wrap;
@@ -9907,7 +9907,7 @@ padding-bottom: 6px;
 .about_twelve_about_author {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start; 
     gap: 100px;
     padding-top: 40px;
     flex-wrap: wrap;
