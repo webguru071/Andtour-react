@@ -57,33 +57,33 @@ const VendorArea = () => {
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <select className="form-control form-select bg_input">
-                                                <option value="1">Khulna</option>
-                                                <option value="1">New York</option>
-                                                <option value="1">Barisal</option>
-                                                <option value="1">Nator</option>
-                                                <option value="1">Joybangla</option>
+                                                <option>Khulna</option>
+                                                <option >New York</option>
+                                                <option>Barisal</option>
+                                                <option>Nator</option>
+                                                <option>Joybangla</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <select className="form-control form-select bg_input">
-                                                <option value="1">State</option>
-                                                <option value="1">New York</option>
-                                                <option value="1">Barisal</option>
-                                                <option value="1">Nator</option>
-                                                <option value="1">Joybangla</option>
+                                                <option>State</option>
+                                                <option>New York</option>
+                                                <option>Barisal</option>
+                                                <option>Nator</option>
+                                                <option>Joybangla</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <select className="form-control form-select bg_input">
-                                                <option value="1">Country</option>
-                                                <option value="1">New York</option>
-                                                <option value="1">Barisal</option>
-                                                <option value="1">Nator</option>
-                                                <option value="1">Joybangla</option>
+                                                <option>Country</option>
+                                                <option>New York</option>
+                                                <option>Barisal</option>
+                                                <option>Nator</option>
+                                                <option>Joybangla</option>
                                             </select>
                                         </div>
                                     </div>
@@ -92,8 +92,8 @@ const VendorArea = () => {
                         </div>
                         <div className="booking_tour_form_submit pt-4">
                             <div className="form-check write_spical_check">
-                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefaultf1" />
-                                <label className="form-check-label" for="flexCheckDefaultf1">
+                                <input className="form-check-input" type="checkbox" id="flexCheckDefaultf1" />
+                                <label className="form-check-label" htmlFor="flexCheckDefaultf1">
                                     I have read and accept the <a href="terms-service.html">Terms and
                                         conditions</a> and <a href="privacy-policy.html">Privacy policy</a>
                                 </label>

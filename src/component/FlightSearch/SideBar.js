@@ -24,10 +24,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="1"
+                defaultValue="1"
                 id="flexCheckDefaultf1"
               />
-              <label className="form-check-label" for="flexCheckDefaultf1">
+              <label className="form-check-label" htmlFor="flexCheckDefaultf1">
                 <span className="area_flex_one">
                   <span>1 stop</span>
                   <span>20</span>
@@ -38,10 +38,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="2"
+                defaultValue="2"
                 id="flexCheckDefaultf2"
               />
-              <label className="form-check-label" for="flexCheckDefaultf2">
+              <label className="form-check-label" htmlFor="flexCheckDefaultf2">
                 <span className="area_flex_one">
                   <span>2 stop</span>
                   <span>16</span>
@@ -52,10 +52,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="3"
+                defaultValue="3"
                 id="flexCheckDefaultf3"
               />
-              <label className="form-check-label" for="flexCheckDefaultf3">
+              <label className="form-check-label" htmlFor="flexCheckDefaultf3">
                 <span className="area_flex_one">
                   <span>3 stop</span>
                   <span>30</span>
@@ -66,10 +66,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="4"
+                defaultValue="4"
                 id="flexCheckDefaultf4"
               />
-              <label className="form-check-label" for="flexCheckDefaultf4">
+              <label className="form-check-label" htmlFor="flexCheckDefaultf4">
                 <span className="area_flex_one">
                   <span>Non-stop</span>
                   <span>22</span>
@@ -87,10 +87,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="5"
+                defaultValue="5"
                 id="flexCheckDefaultt1"
               />
-              <label className="form-check-label" for="flexCheckDefaultt1">
+              <label className="form-check-label" htmlFor="flexCheckDefaultt1">
                 <span className="area_flex_one">
                   <span>Economy</span>
                   <span>20</span>
@@ -101,10 +101,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="6"
+                defaultValue="6"
                 id="flexCheckDefaultt2"
               />
-              <label className="form-check-label" for="flexCheckDefaultt2">
+              <label className="form-check-label" htmlFor="flexCheckDefaultt2">
                 <span className="area_flex_one">
                   <span>Business</span>
                   <span>26</span>
@@ -122,10 +122,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="7"
+                defaultValue="7"
                 id="flexCheckDefaults1"
               />
-              <label className="form-check-label" for="flexCheckDefaults1">
+              <label className="form-check-label" htmlFor="flexCheckDefaults1">
                 <span className="area_flex_one">
                   <span>Quatar Airways</span>
                   <span>17</span>
@@ -136,10 +136,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="8"
+                defaultValue="8"
                 id="flexCheckDefaults2"
               />
-              <label className="form-check-label" for="flexCheckDefaults2">
+              <label className="form-check-label" htmlFor="flexCheckDefaults2">
                 <span className="area_flex_one">
                   <span>Fly Amirates </span>
                   <span>14</span>
@@ -150,10 +150,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="9"
+                defaultValue="9"
                 id="flexCheckDefaults3"
               />
-              <label className="form-check-label" for="flexCheckDefaults3">
+              <label className="form-check-label" htmlFor="flexCheckDefaults3">
                 <span className="area_flex_one">
                   <span>Novo Air </span>
                   <span>62</span>
@@ -164,10 +164,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="10"
+                defaultValue="10"
                 id="flexCheckDefaults4"
               />
-              <label className="form-check-label" for="flexCheckDefaults4">
+              <label className="form-check-label" htmlFor="flexCheckDefaults4">
                 <span className="area_flex_one">
                   <span>Air Asia </span>
                   <span>08</span>
@@ -178,10 +178,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="11"
+                defaultValue="11"
                 id="flexCheckDefaults5"
               />
-              <label className="form-check-label" for="flexCheckDefaults5">
+              <label className="form-check-label" htmlFor="flexCheckDefaults5">
                 <span className="area_flex_one">
                   <span>Singapore Airlines </span>
                   <span>12</span>
@@ -199,10 +199,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="12"
+                defaultValue="12"
                 id="flexCheckDefaultp1"
               />
-              <label className="form-check-label" for="flexCheckDefaultp1">
+              <label className="form-check-label" htmlFor="flexCheckDefaultp1">
                 <span className="area_flex_one">
                   <span>Yes</span>
                   <span>17</span>
@@ -213,10 +213,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="13"
+                defaultValue="13"
                 id="flexCheckDefaultp2"
               />
-              <label className="form-check-label" for="flexCheckDefaultp2">
+              <label className="form-check-label" htmlFor="flexCheckDefaultp2">
                 <span className="area_flex_one">
                   <span>No</span>
                   <span>14</span>
@@ -227,10 +227,10 @@ const SideBar = () => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                defaultValu="14"
+                defaultValue="14"
                 id="flexCheckDefaultp3"
               />
-              <label className="form-check-label" for="flexCheckDefaultp3">
+              <label className="form-check-label" htmlFor="flexCheckDefaultp3">
                 <span className="area_flex_one">
                   <span>As per rules</span>
                   <span>62</span>

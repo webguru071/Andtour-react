@@ -69,7 +69,6 @@ const TopDestinations = () => {
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                   {TopDestinationsData.slice(6, 8).map(data2 => 
-                    <>
                       <div
                         className="destinations_content_box img_animation"
                         key={data2.id}
@@ -83,7 +82,6 @@ const TopDestinations = () => {
                           </h3>
                         </div>
                       </div>
-                    </>
                   )}
 
                   <div className="destinations_content_box">

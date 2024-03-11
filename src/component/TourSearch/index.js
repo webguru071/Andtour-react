@@ -36,8 +36,8 @@ const TourSearchArea = () => {
                             <div className="filter_review">
                                 <form className="review_star">
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="1" id="flexCheckDefault" />
-                                        <label className="form-check-label" for="flexCheckDefault">
+                                        <input className="form-check-input" type="checkbox"  id="flexCheckDefault" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefault">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
@@ -46,8 +46,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="2" id="flexCheckDefault1" />
-                                        <label className="form-check-label" for="flexCheckDefault1">
+                                        <input className="form-check-input" type="checkbox"  id="flexCheckDefault1" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefault1">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
@@ -56,8 +56,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="3" id="flexCheckDefault2" />
-                                        <label className="form-check-label" for="flexCheckDefault2">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefault2" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefault2">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
@@ -66,8 +66,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="4" id="flexCheckDefault3" />
-                                        <label className="form-check-label" for="flexCheckDefault3">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefault3" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefault3">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_asse"></i>
@@ -76,8 +76,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="5" id="flexCheckDefault5" />
-                                        <label className="form-check-label" for="flexCheckDefault5">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefault5" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefault5">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_asse"></i>
                                             <i className="fas fa-star color_asse"></i>
@@ -95,8 +95,8 @@ const TourSearchArea = () => {
                             <div className="filter_review">
                                 <form className="review_star">
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="6" id="flexCheckDefaulta" />
-                                        <label className="form-check-label" for="flexCheckDefaulta">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefaulta" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefaulta">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
@@ -105,9 +105,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="7"
-                                            id="flexCheckDefaulf21" />
-                                        <label className="form-check-label" for="flexCheckDefaulf21">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefaulf21" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefaulf21">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
@@ -116,9 +115,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="8"
-                                            id="flexCheckDefaultf3" />
-                                        <label className="form-check-label" for="flexCheckDefaultf3">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefaultf3" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefaultf3">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
@@ -127,9 +125,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="9"
-                                            id="flexCheckDefaultf4" />
-                                        <label className="form-check-label" for="flexCheckDefaultf4">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefaultf4" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefaultf4">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_asse"></i>
@@ -138,9 +135,8 @@ const TourSearchArea = () => {
                                         </label>
                                     </div>
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" defaultValu="10"
-                                            id="flexCheckDefaultf5" />
-                                        <label className="form-check-label" for="flexCheckDefaultf5">
+                                        <input className="form-check-input" type="checkbox" id="flexCheckDefaultf5" />
+                                        <label className="form-check-label" htmlFor="flexCheckDefaultf5">
                                             <i className="fas fa-star color_theme"></i>
                                             <i className="fas fa-star color_asse"></i>
                                             <i className="fas fa-star color_asse"></i>

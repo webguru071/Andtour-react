@@ -176,7 +176,7 @@ const Header = () => {
                                   )}
                                 </Link>
                                 {data.submenu && (
-                                  <li className="nav-item">
+                                  <div className="nav-item">
                                     <ul className="dropdown-menu">
                                       {data.subMenuitem.map((item, index1) => (
                                         <li className="nav-item" key={index1}>
@@ -208,7 +208,7 @@ const Header = () => {
                                         </li>
                                       ))}
                                     </ul>
-                                  </li>
+                                  </div>
                                 )}
                               </li>
                             ))}

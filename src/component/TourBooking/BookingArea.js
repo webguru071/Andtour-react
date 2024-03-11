@@ -66,33 +66,33 @@ const BookingArea = () => {
                 <div className="col-lg-6">
                   <div className="form-group">
                     <select className="form-control form-select bg_input">
-                      <option value="1">Khulna</option>
-                      <option value="1">New York</option>
-                      <option value="1">Barisal</option>
-                      <option value="1">Nator</option>
-                      <option value="1">Joybangla</option>
+                      <option>Khulna</option>
+                      <option>New York</option>
+                      <option>Barisal</option>
+                      <option>Nator</option>
+                      <option>Joybangla</option>
                     </select>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="form-group">
                     <select className="form-control form-select bg_input">
-                      <option value="1">State</option>
-                      <option value="1">New York</option>
-                      <option value="1">Barisal</option>
-                      <option value="1">Nator</option>
-                      <option value="1">Joybangla</option>
+                      <option>State</option>
+                      <option>New York</option>
+                      <option>Barisal</option>
+                      <option>Nator</option>
+                      <option>Joybangla</option>
                     </select>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="form-group">
                     <select className="form-control form-select bg_input">
-                      <option value="1">Country</option>
-                      <option value="1">New York</option>
-                      <option value="1">Barisal</option>
-                      <option value="1">Nator</option>
-                      <option value="1">Joybangla</option>
+                      <option>Country</option>
+                      <option>New York</option>
+                      <option>Barisal</option>
+                      <option>Nator</option>
+                      <option>Joybangla</option>
                     </select>
                   </div>
                 </div>
@@ -111,9 +111,8 @@ const BookingArea = () => {
                     type="radio"
                     name="flexRadioDefault"
                     id="flexRadioDefault1"
-                    defaultValu="red"
                   />
-                  <label className="form-check-label" for="flexRadioDefault1">
+                  <label className="form-check-label" htmlFor="flexRadioDefault1">
                     Payment by card
                   </label>
                 </div>
@@ -123,9 +122,8 @@ const BookingArea = () => {
                     type="radio"
                     name="flexRadioDefault"
                     id="flexRadioDefault2"
-                    defaultValu="green"
                   />
-                  <label className="form-check-label" for="flexRadioDefault2">
+                  <label className="form-check-label" htmlFor="flexRadioDefault2">
                     Paypal
                   </label>
                 </div>
@@ -135,9 +133,8 @@ const BookingArea = () => {
                     type="radio"
                     name="flexRadioDefault"
                     id="flexRadioDefault3"
-                    defaultValu="black"
                   />
-                  <label className="form-check-label" for="flexRadioDefault3">
+                  <label className="form-check-label" htmlFor="flexRadioDefault3">
                     Payoneer
                   </label>
                 </div>
@@ -147,9 +144,8 @@ const BookingArea = () => {
                     type="radio"
                     name="flexRadioDefault"
                     id="flexRadioDefault4"
-                    defaultValu="white"
                   />
-                  <label className="form-check-label" for="flexRadioDefault4">
+                  <label className="form-check-label" htmlFor="flexRadioDefault4">
                     Cash on delivery
                   </label>
                 </div>
@@ -162,13 +158,12 @@ const BookingArea = () => {
             <input
               className="form-check-input"
               type="checkbox"
-              defaultValu="1"
               id="flexCheckDefaultf1"
             />
-            <label className="form-check-label" for="flexCheckDefaultf1">
+            <label className="form-check-label" htmlFor="flexCheckDefaultf1">
               <span className="main_spical_check">
                 <span>
-                  I read and accept all{" "}
+                  I read and accept all
                   <a href="terms-service.html">Terms and conditios</a>
                 </span>
               </span>

@@ -1,6 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const FlightForm = () => {
+    const [value, setValue] = useState("");
+    const handleChange=(e) => {
+        setValue(e.target.value);
+    }
   return (
     <>
      <section id="theme_search_form_tour">
@@ -67,7 +71,7 @@ const FlightForm = () => {
                                                             <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                 <div className="flight_Search_boxed">
                                                                     <p>From</p>
-                                                                    <input type="text" defaultValue="New York" />
+                                                                    <input type="text" defaultValue={value}  onChange={handleChange} />
                                                                     <span>JFK - John F. Kennedy International...</span>
                                                                     <div className="plan_icon_posation">
                                                                         <i className="fas fa-plane-departure"></i>
@@ -77,7 +81,7 @@ const FlightForm = () => {
                                                             <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                 <div className="flight_Search_boxed">
                                                                     <p>To</p>
-                                                                    <input type="text" defaultValue="London " />
+                                                                    <input type="text" defaultValue={value} onChange={handleChange}/>
                                                                     <span>LCY, London city airport </span>
                                                                     <div className="plan_icon_posation">
                                                                         <i className="fas fa-plane-arrival"></i>
@@ -92,7 +96,7 @@ const FlightForm = () => {
                                                                     <div className="flight_Search_boxed date_flex_area">
                                                                         <div className="Journey_date">
                                                                             <p>Journey date</p>
-                                                                            <input type="date" value="2022-05-05" />
+                                                                            <input type="date" onChange={handleChange}/>
                                                                             <span>Thursday</span>
                                                                         </div>
                                                                     </div>
@@ -824,7 +828,7 @@ const FlightForm = () => {
                                                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                         <div className="flight_Search_boxed">
                                                             <p>Destination</p>
-                                                            <input type="text" placeholder="Where are you going?" defaultValu="Where are you going?" />
+                                                            <input type="text" placeholder="Where are you going?" defaultValue="Where are you going?" />
                                                             <span>Where are you going?</span>
                                                         </div>
                                                     </div>
@@ -833,12 +837,12 @@ const FlightForm = () => {
                                                             <div className="flight_Search_boxed date_flex_area">
                                                                 <div className="Journey_date">
                                                                     <p>Journey date</p>
-                                                                    <input type="date" value="2022-05-03" />
+                                                                    <input type="date" />
                                                                     <span>Thursday</span>
                                                                 </div>
                                                                 <div className="Journey_date">
                                                                     <p>Return date</p>
-                                                                    <input type="date" value="2022-05-05" />
+                                                                    <input type="date" />
                                                                     <span>Thursday</span>
                                                                 </div>
                                                             </div>
@@ -981,12 +985,12 @@ const FlightForm = () => {
                                                             <div className="flight_Search_boxed date_flex_area">
                                                                 <div className="Journey_date">
                                                                     <p>Journey date</p>
-                                                                    <input type="date" value="2022-05-03" />
+                                                                    <input type="date" />
                                                                     <span>Thursday</span>
                                                                 </div>
                                                                 <div className="Journey_date">
                                                                     <p>Return date</p>
-                                                                    <input type="date" value="2022-05-05" />
+                                                                    <input type="date"  />
                                                                     <span>Thursday</span>
                                                                 </div>
                                                             </div>

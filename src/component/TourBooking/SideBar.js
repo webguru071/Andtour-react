@@ -50,7 +50,7 @@ const SideBar = () => {
                   <del>$ 35,500</del>
                 </h6>
                 <h3>
-                  $ 30,500 <sub>/Per serson</sub>{" "}
+                  $ 30,500 <sub>/Per serson</sub>
                 </h3>
               </div>
             </div>
@@ -63,11 +63,10 @@ const SideBar = () => {
             </div>
             <div className="edit_date_form">
               <div className="form-group">
-                <label for="dates">Edit Date</label>
+                <label htmlFor="dates">Edit Date</label>
                 <input
                   type="date"
                   id="dates"
-                  value="2022-05-05"
                   className="form-control"
                 />
               </div>
@@ -161,7 +160,7 @@ const SideBar = () => {
               </div>
               <div className="total_subtotal_booking">
                 <h6>
-                  Total Amount <span>$33,000.00</span>{" "}
+                  Total Amount <span>$33,000.00</span>
                 </h6>
               </div>
             </div>
