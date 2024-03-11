@@ -16,11 +16,11 @@ const VerifyOTPArea = () => {
                             <form action="#" id="main_author_form">
                                 <div className="form-group">
                                     <div className="otpCont flex spaceBetween">
-                                        <input className="otSc form-control" type="text" maxlength="1" />
-                                        <input className="otSc form-control" type="text" maxlength="1" />
-                                        <input className="otSc form-control" type="text" maxlength="1" />
-                                        <input className="otSc form-control" type="text" maxlength="1" />
-                                        <input className="otSc form-control" type="text" maxlength="1" />
+                                        <input className="otSc form-control" type="text" maxLength="1" />
+                                        <input className="otSc form-control" type="text" maxLength="1" />
+                                        <input className="otSc form-control" type="text" maxLength="1" />
+                                        <input className="otSc form-control" type="text" maxLength="1" />
+                                        <input className="otSc form-control" type="text" maxLength="1" />
                                     </div>
                                 </div>
                                 <div className="common_form_submit">

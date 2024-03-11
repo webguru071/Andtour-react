@@ -34,12 +34,12 @@ const TopDestinationsArea = () => {
                                                     <div className="flight_Search_boxed date_flex_area">
                                                         <div className="Journey_date">
                                                             <p>Journey date</p>
-                                                            <input type="date" value="2022-05-03" />
+                                                            <input type="date" />
                                                             <span>Thursday</span>
                                                         </div>
                                                         <div className="Journey_date">
                                                             <p>Return date</p>
-                                                            <input type="date" value="2022-05-05" />
+                                                            <input type="date" />
                                                             <span>Thursday</span>
                                                         </div>
                                                     </div>

@@ -44,7 +44,7 @@ export const HeaderData = [
              subItems:[
                 {
                     item:"Flight",
-                    link:"/flight-searchh"
+                    link:"/flight-search"
                 },
                 {
                     item:"Flight Booking",
@@ -125,12 +125,12 @@ export const HeaderData = [
          },
          {
             subItem:"Privacy Policy",
-            linkL:"/about",
+            linkL:"/privacy-policy",
             subMenuActive:false,
         },
         {
             subItem:"404 Error",
-            linkL:"/about",
+            linkL:"*",
             subMenuActive:false,
         },
         
@@ -148,7 +148,7 @@ export const HeaderData = [
          },
          {
              subItem:"News Details",
-             linkL:"/news-detail",
+             linkL:"/news-details",
              subMenuActive:false,
          },
         

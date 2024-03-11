@@ -1,10 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 const FlightForm = () => {
-    const [value, setValue] = useState("");
-    const handleChange=(e) => {
-        setValue(e.target.value);
-    }
+ 
   return (
     <>
      <section id="theme_search_form_tour">
@@ -71,7 +68,7 @@ const FlightForm = () => {
                                                             <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                 <div className="flight_Search_boxed">
                                                                     <p>From</p>
-                                                                    <input type="text" defaultValue={value}  onChange={handleChange} />
+                                                                    <input type="text" />
                                                                     <span>JFK - John F. Kennedy International...</span>
                                                                     <div className="plan_icon_posation">
                                                                         <i className="fas fa-plane-departure"></i>
@@ -81,7 +78,7 @@ const FlightForm = () => {
                                                             <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                 <div className="flight_Search_boxed">
                                                                     <p>To</p>
-                                                                    <input type="text" defaultValue={value} onChange={handleChange}/>
+                                                                    <input type="text" />
                                                                     <span>LCY, London city airport </span>
                                                                     <div className="plan_icon_posation">
                                                                         <i className="fas fa-plane-arrival"></i>
@@ -96,7 +93,7 @@ const FlightForm = () => {
                                                                     <div className="flight_Search_boxed date_flex_area">
                                                                         <div className="Journey_date">
                                                                             <p>Journey date</p>
-                                                                            <input type="date" onChange={handleChange}/>
+                                                                            <input type="date"/>
                                                                             <span>Thursday</span>
                                                                         </div>
                                                                     </div>
@@ -243,7 +240,7 @@ const FlightForm = () => {
                                                             <div className="col-lg-3  col-md-6 col-sm-12 col-12">
                                                                 <div className="flight_Search_boxed">
                                                                     <p>From</p>
-                                                                    <input type="text" defaultValue="New York" />
+                                                                    <input type="text"  />
                                                                     <span>JFK - John F. Kennedy International...</span>
                                                                     <div className="plan_icon_posation">
                                                                         <i className="fas fa-plane-departure"></i>
@@ -253,7 +250,7 @@ const FlightForm = () => {
                                                             <div className="col-lg-3  col-md-6 col-sm-12 col-12">
                                                                 <div className="flight_Search_boxed">
                                                                     <p>To</p>
-                                                                    <input type="text" defaultValue="London " />
+                                                                    <input type="text" />
                                                                     <span>LCY, London city airport </span>
                                                                     <div className="plan_icon_posation">
                                                                         <i className="fas fa-plane-arrival"></i>
@@ -268,12 +265,12 @@ const FlightForm = () => {
                                                                     <div className="flight_Search_boxed date_flex_area">
                                                                         <div className="Journey_date">
                                                                             <p>Journey date</p>
-                                                                            <input type="date" value="2022-05-05" />
+                                                                            <input type="date" />
                                                                             <span>Thursday</span>
                                                                         </div>
                                                                         <div className="Journey_date">
                                                                             <p>Return date</p>
-                                                                            <input type="date" value="2022-05-08" />
+                                                                            <input type="date" />
                                                                             <span>Saturday</span>
                                                                         </div>
                                                                     </div>
@@ -422,7 +419,7 @@ const FlightForm = () => {
                                                                     <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                         <div className="flight_Search_boxed">
                                                                             <p>From</p>
-                                                                            <input type="text" defaultValue="New York" />
+                                                                            <input type="text" />
                                                                             <span>DAC, Hazrat Shahajalal
                                                                                 International...</span>
                                                                             <div className="plan_icon_posation">
@@ -433,7 +430,7 @@ const FlightForm = () => {
                                                                     <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                         <div className="flight_Search_boxed">
                                                                             <p>To</p>
-                                                                            <input type="text" defaultValue="London " />
+                                                                            <input type="text" />
                                                                             <span>LCY, London city airport </span>
                                                                             <div className="plan_icon_posation">
                                                                                 <i className="fas fa-plane-arrival"></i>
@@ -449,14 +446,12 @@ const FlightForm = () => {
                                                                                 className="flight_Search_boxed date_flex_area">
                                                                                 <div className="Journey_date">
                                                                                     <p>Journey date</p>
-                                                                                    <input type="date"
-                                                                                        value="2022-05-05" />
+                                                                                    <input type="date" />
                                                                                     <span>Thursday</span>
                                                                                 </div>
                                                                                 <div className="Journey_date">
                                                                                     <p>Return date</p>
-                                                                                    <input type="date"
-                                                                                        value="2022-05-10" />
+                                                                                    <input type="date" />
                                                                                     <span>Saturday</span>
                                                                                 </div>
                                                                             </div>
@@ -613,7 +608,7 @@ const FlightForm = () => {
                                                                     <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                         <div className="flight_Search_boxed">
                                                                             <p>From</p>
-                                                                            <input type="text" defaultValue="New York" />
+                                                                            <input type="text" />
                                                                             <span>DAC, Hazrat Shahajalal
                                                                                 International...</span>
                                                                             <div className="plan_icon_posation">
@@ -624,7 +619,7 @@ const FlightForm = () => {
                                                                     <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                                                                         <div className="flight_Search_boxed">
                                                                             <p>To</p>
-                                                                            <input type="text" defaultValue="London " />
+                                                                            <input type="text"/>
                                                                             <span>LCY, London city airport </span>
                                                                             <div className="plan_icon_posation">
                                                                                 <i className="fas fa-plane-arrival"></i>
@@ -640,14 +635,12 @@ const FlightForm = () => {
                                                                                 className="flight_Search_boxed date_flex_area">
                                                                                 <div className="Journey_date">
                                                                                     <p>Journey date</p>
-                                                                                    <input type="date"
-                                                                                        value="2022-05-05" />
+                                                                                    <input type="date" />
                                                                                     <span>Thursday</span>
                                                                                 </div>
                                                                                 <div className="Journey_date">
                                                                                     <p>Return date</p>
-                                                                                    <input type="date"
-                                                                                        value="2022-05-12" />
+                                                                                    <input type="date" />
                                                                                     <span>Saturday</span>
                                                                                 </div>
                                                                             </div>
